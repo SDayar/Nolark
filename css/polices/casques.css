@@ -1,0 +1,221 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Document:casques.css
+    Description: Css pour la page des casques
+    Created on : 5 nov. 2022, 15:45:11
+    Author     : sdayar
+*/
+
+header{
+    background-image:url("images/banniere.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center 10px;
+    height:180px;
+   }
+nav li{
+    display:inline;
+    font-size:150%;
+}
+nav li a{
+    padding:3px;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+  nav li a:hover{color:black;
+    background-color: white;}
+    
+   #casques{
+       display:block;
+   }
+   #casques article{
+       float:left;
+       width:157px;
+       height:275px;
+       margin:10px;
+       padding:5px;
+       border:white thin solid;
+   }
+   #casques article:hover{
+       border: #bbb thin solid;
+   }
+   #casques p{
+       margin:0px;
+   }
+   #casques .prix{
+       font-weight:bold;
+       color:red;
+   }
+   #casques .marque{
+       text-transform:uppercase;
+       text-align:left;
+       color:black;
+       font-family:cursive;
+       font-size:xx-large;
+   }
+   #casques .modele{
+       text-transform:capitalize;
+       color:black;
+   }
+   #casques .stockok{
+       float:right;
+       text-transform:uppercase;
+       padding:2px;
+       top:10px;
+       right:10Px;
+       background-color: chartreuse;
+   }
+   #casques .stockko{
+       float:right;
+       text-transform:uppercase;
+       padding:2px;
+       top:10px;
+       right:10px;
+       background-color:red;
+   }
+   [data-tip]{
+       position:relative;
+      cursor:help;
+   }
+   [data-tip]:hover:after {
+       text-transform:none;
+       content:attr(data-tip);/*cette valeur fait reférence à l'attribut "data-tip"*/
+       position:absolute;
+       top:20px;
+       left:10px;
+       white-space:nowrap;
+       padding:5px 10px;
+       background:fuchsia;
+       color:#fff;
+   }
+   #casques .classement{
+       margin: 10px auto 0 36px;
+       background:scroll transparent url(images/etoiles.gif) no-repeat;
+       width:164px;
+       height:18px;
+   }
+   #casques.classement.classement05{
+       background-position:0 -18px;
+   }
+
+   
+   #casques .classement.classement10{
+       background-position:0 -36px;
+   }
+   #casques .classement.classement15{
+       background-position:0 -54px;
+   }
+   #casques .classement.classment20{
+       background-position:0 -72px;
+   }
+   #casques .classement.classement25{
+    background-position:0 -90px;   
+   }
+   #casques .classement.classement30{
+       background-position:0 -108px;
+   }
+   #casques .classement.classement35{
+       background-position:0 -126px;
+   }
+   #casques .classement.classement40{
+       background-position:0 -144px;
+   }
+   #casques .classement.classement45{
+       background-position:0 -162px;
+   }
+   #casques .classement.classement50{
+       background-position:0 -180px;
+   }
+    #casques.classement.classement55{
+       background-position:0 -98px;
+   }
+
+   
+   #casques .classement.classement60{
+       background-position:0 -88px;
+   }
+   #casques .classement.classement65{
+       background-position:0 -87px;
+   }
+   #casques .classement.classment70{
+       background-position:0 -82px;
+   }
+   #casques .classement.classement75{
+    background-position:0 -86px;   
+   }
+   #casques .classement.classement80{
+       background-position:0 -89px;
+   }
+   #casques .classement.classement85{
+       background-position:0 -87px;
+   }
+   #casques .classement.classement90{
+       background-position:0 -87px;
+   }
+   #casques .classement.classement95{
+       background-position:0 -89px;
+   }
+   #casques .classement.classement100{
+       background-position:0 -50px;
+   }
+   footer{
+  border:thin solid black;
+  position:fixed;
+  width:100%;
+  background-color:gray;
+  bottom:0px;
+ 
+    
+   
+}
+@media screen and (max-device-width:768px){
+header{ background-image:none; width: auto; margin-top:0px;height:0;}
+nav{ margin-top: 0;}
+nav ul{margin-left: 0; margin-top:0px; padding-left: 0;}
+nav li a { display: block;
+margin-top: 1px;
+height: 25px;
+padding: 1px;}
+#principal{ width:auto; height: auto;}
+#principal article{ width: auto; height: 100%; float: none; }
+#principal aside{display: none;}
+#casques{
+      margin-top:20px;
+  }
+  
+  #casques article{
+      width:100%;
+      display:inline;
+      height:120px;
+      }
+      #casques img{
+          float:left;
+      }
+      #casques .stockok{
+          float:left;
+          margin-top:50px;
+      }
+      #casques .stockko{
+          float:left;
+          margin-top:50px;
+      }
+      #casques .prix{
+          margin-left:220px;
+          margin-top:50px;}
+      #casques .marque{
+          margin-left:287px;
+          font-size:11px;
+          margin-top:-27px;
+      }
+      #casques .modele{
+          float:right;
+          margin-top:-33px;
+          font-size:11px;
+      }
+}

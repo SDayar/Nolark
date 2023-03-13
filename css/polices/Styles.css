@@ -1,0 +1,137 @@
+
+/*  Document:Styles.css
+    Created on : 27 oct. 2022, 08:30:18
+    Author     : sdayar
+    Description: CSS de démo pour Nolark
+*/
+
+h1{
+    color:red;
+    text-align:center;
+}
+h2{
+    color:red;
+}
+#boite #gauche{
+    float:left;
+    width:33%;
+}
+#boite #milieu{
+    float:right;
+    width:32%;
+}
+
+header{
+    background-image: url("images/banniere.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center 10px;
+    height:180px;
+   
+}
+section{
+    border-color:gray;
+    border-style:solid;
+    
+}
+
+
+footer{
+  border:thin solid black;
+  position:fixed;
+  width:100%;
+  background-color:gray;
+  bottom:0px;
+  
+ }
+
+
+
+nav li{
+    display:inline;
+    font-size:150%;
+}
+nav li a{
+    padding:3px;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+    nav li a:hover{color:black;
+    background-color: white;}
+    #principal{
+        height:350px;
+    }
+    #principal article{
+        padding-top:10px;
+        width:72%;
+        height:100%;
+        text-align:justify;
+        float:left;
+    }
+    #principal article img{
+        float:left;
+    }
+    #principal aside{
+        margin-top:0;
+        background: url("images/post.png") no-repeat ;
+        vertical-align:top;
+        width:25%;
+        float:right;
+        height:100%;
+        }
+
+    #principal aside img:first-child {
+            margin-top:100px;
+        }
+    #principal aside img{
+            margin-left:auto;
+            margin-right:auto;
+            clear:both;
+             }
+   #principal aside p{
+                 margin-top:0;
+             }
+             
+    aside :hover{
+                 color:yellow;
+             }
+             #boite a{
+                 text-decoration:none;
+                 color:black;
+             }
+    
+ @media screen and (max-device-width:768px){
+header{ background-image: none; width: auto; margin: 0; height:0;}
+nav{ margin-top: 0;}
+nav ul{margin-left: 0; margin-top: 0; padding-left: 0;}
+nav li a { display: block;
+margin-top: 1px;
+height: 25px;
+padding: 1px;}
+#principal{ width:auto; height: auto;}
+#principal article{ width: auto; height: 100%; float: none; }
+#principal aside{display: none;}
+#boite img{
+        display:none;
+       }
+       #boite{
+           margin-bottom:100px;
+       }
+       #boite #gauche{
+           float:left;
+           
+       }
+       
+        
+     }
+ 
+
+
+
+
+             
+                  
+            

@@ -1,0 +1,111 @@
+
+/* 
+    Created on : 24 nov. 2022, 11:14:01
+    Author     : sdayar
+   document:lateam.css
+   Description: css pour la page "Lateam"
+*/
+
+
+header{
+    background-image: url("images/banniere.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center 10px;
+    height:180px;
+  }
+footer{
+   border:thin solid black;
+   position:fixed;
+   width:100%;
+  background-color:gray;
+  bottom:0px;
+ }
+ nav li{
+    display:inline;
+    font-size:150%;
+}
+nav li a{
+    padding:3px;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+ nav li a:hover{color:black;
+    background-color: white;}
+ #Beurre{
+    display:block;
+    height:633px;
+    background:url(images/img4.jpg) no-repeat;
+    position:relative;
+    margin:2px 250px  2px 250px;
+    }
+
+#Beurre li {list-style-type:none;}
+#Beurre li a {
+    background:transparent;
+    display:block;
+    overflow:hidden;
+    height:0px;
+    position:absolute;
+    width:165px;
+    padding-top:245px;
+}
+
+#membre1{left:60px; top:85px;}
+#membre2{left:220px; top:80px;} 
+#membre3{left:405px; top:10px;} 
+#membre4{left:585px; top:50px;} 
+#membre5{left:720px; top:111px;} 
+ 
+#Beurre li a:hover{border:1px dashed black}
+#Beurre li a:hover.Femme {background-color:rgba(210,10,99,0.6);}
+#Beurre li a:hover.Homme {background-color:rgba(0,10,210,0.6);}
+ 
+ h2{
+     text-align:center;
+ }
+
+
+@media screen and (max-device-width:768px){
+    header{ background-image: none; width: auto; margin: 0; height:0;}
+nav{ margin-top: 0;}
+nav ul{margin-left: 0; margin-top: 0; padding-left: 0;}
+nav li a { display: block;
+margin-top: 1px;
+height: 25px;
+padding: 1px;}
+Beurre img{
+    width:auto;
+}
+#Beurre{
+    background-image:none;
+}
+#Beurre li a:hover{border:none;}
+#Beurre li a:hover.Femme {background:none;}
+#Beurre li a:hover.Homme {background:none;}
+#Beurre li a {
+    background:transparent;
+    display:inline;
+    overflow:hidden;
+    height:0px;
+    width:auto;
+}
+#Tout{
+    width:auto;
+}
+.twitter{
+  
+    width:100%;
+    margin-left:2px;
+}
+h2{
+    margin-top:-630px;
+}
+}
+
+
+   
+   

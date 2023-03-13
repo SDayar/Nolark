@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/*   document:nous-contacter.css
+    Created on : 5 nov. 2022, 20:55:05
+    Description: css pour la page "nous contacter"
+    Author     : sdayar
+*/
+
+header{
+    background-image: url("images/banniere.png");
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center 10px;
+    height:180px;
+}
+
+nav li{
+    display:inline;
+    font-size:150%;
+}
+nav li a{
+    padding:3px;
+    color:white;
+    background-color:black;
+    text-decoration:none;
+    font-weight:bold;
+    }
+    
+nav li a:hover{color:black;
+    background-color: white;}
+#coordo{
+        float:left;
+        width:70%;
+        height:200px;
+     }
+#coordo legend label{
+        padding:50px;
+    }
+#tableau{
+        height:90px;
+        width:60%;
+    }
+
+    
+
+#align{
+        float:left;
+        
+    }
+#Barre{
+        padding-right:5%;
+        width:20%;
+        height:455px;
+      
+    }
+#commentaire input{
+        width:100%;
+        height:90px;
+    }
+footer{
+   border:thin solid black;
+   position:fixed;
+   width:100%;
+  background-color:gray;
+  bottom:0px;
+ }
+#coordo input[type="text"]:valid{
+     color:green;
+ }
+input[type="text"]:invalid{
+     color:red;
+ }
+input[type="email"]:valid{
+     color:green;
+ }
+input[type="email"]:invalid{
+     color:red;
+ }
+input[type="color"]{
+     width:90px;
+ }
+ input[type="button"]{
+     float:left;
+     margin-top:65px;
+ }
+ 
+fieldset #tableau{
+     width:30.9%;
+ }
+ #Tout{
+border:1px solid black;
+    height:700px;
+}
+#Couleurs{
+         background-color:red;
+         float:right;
+         width:50%;
+         height:20px;
+        
+         border:7px solid gray;
+  }
+#alignement{
+            display:flex;
+}
+
+
+#sc{
+    width:50%;
+}
+@media screen and (max-device-width:768px){
+    header{ background-image: none; width: auto; margin: 0; height:0;}
+nav{ margin-top: 0;}
+nav ul{margin-left: 0; margin-top: 0; padding-left: 0;}
+nav li a { display: block;
+margin-top: 1px;
+height: 25px;
+padding: 1px;}
+#principal{ width:auto; height: auto;}
+#principal article{ width: auto; height: 100%; float: none; }
+#principal aside{display: none;}
+#Barre {
+    margin-top:5px;
+    width:auto;
+    margin-bottom:100px;
+}
+#coordo {
+    height:700px;
+    width:auto;
+}
+}
+
